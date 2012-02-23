@@ -78,7 +78,7 @@ set mat=2
 set noerrorbells
 set novisualbell
 
-"colorschem two2tango
+" colorschem mirodark
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 " Files, backups and undo
