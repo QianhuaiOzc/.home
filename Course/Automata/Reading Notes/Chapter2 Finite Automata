@@ -1,0 +1,34 @@
+Two classes of finite automata
+
+Content:
+2.1 An Informal Picture of Finite Automata
+2.2 Deterministic Finite Automata
+2.3 Nondeterministic Finite Automata
+2.4 An Application: Text Search
+2.5 Finite Automata With Epsilon-Transitions
+2.6 Summary
+
+
+1. deterministic: DFA cannot be in more than one state at once;
+2. nondeterministic: NFA may be in serveral states at once.
+
+The NFA is substantial efficiency in describing an application
+
+2.2 Deterministic Finite Automata(DFA)
+The term "deterministic" refers to the fact that on each input there is one and only one state to which the automaton can transition from its current state.
+
+2.2.1 Definition of a Deterministic Finite Automaton
+A deterministic finite automaton consists of:
+	1. A finite set of states, often denoted Q.
+	2. A finite set of input symbols, often denoted E
+	3. A transition function that takes as agruments a state and an input symbol and returns a state, commonly be denoted f
+	4. A start state, one of the states in Q.
+	5. A set of final or accepting states F, The set F is a subset of Q.
+A = (Q, E, f, q0, F) where A is the name of DFA.
+
+2.2.3 Simpler Notations for DFA's
+Two preferred notations for describing automata:
+	1. Transition diagram
+	2. Transition table
+
+2.2.4 Extending the Transition Function to Strings
